@@ -3,7 +3,7 @@ import { BlogCard } from "../components/BlogCard"
 import { useBlogs } from "../hooks/index"
 
 export const Blogs = ( ) =>{
-  const {loading,blogs} = useBlogs();
+  const {blogs} = useBlogs();
  return<div>
 <Appbar></Appbar>
 
